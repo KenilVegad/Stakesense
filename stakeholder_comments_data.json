@@ -1,0 +1,215 @@
+{
+  "documents": {
+    "DOC-2024-001": {
+      "id": "DOC-2024-001",
+      "title": "Draft Companies (Amendment) Rules, 2024",
+      "description": "This comprehensive draft proposal outlines significant amendments to the Companies Rules, 2024, focusing on modernizing board meeting procedures, streamlining director appointment processes, and enhancing overall corporate governance standards for companies operating in India.",
+      "totalComments": 4,
+      "sentimentDistribution": {
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1
+      },
+      "comments": [
+        {
+          "id": "CMT001",
+          "name": "Rajesh Kumar",
+          "email": "r.kumar@example.com",
+          "company": "Tech Solutions Pvt. Ltd.",
+          "date": "1/16/2024",
+          "sentiment": "Positive",
+          "comment": "The proposed changes to board meeting requirements seem reasonable and well-thought-out. However, clause 3.2 needs clarification regarding virtual meetings, especially concerning the authentication process for directors joining remotely. I suggest adding specific guidelines for technical requirements and backup procedures.",
+          "initial": "R",
+          "ageGroup": "31-50",
+          "gender": "Male",
+          "location": "Urban",
+          "score": "8.8",
+          "tags": ["excellent", "digital transformation", "streamline", "support", "modernization", "global leader"],
+          "theme": "Digital Transformation"
+        },
+        {
+          "id": "CMT002",
+          "name": "Priya Sharma",
+          "email": "p.sharma@example.com",
+          "company": "Corporate Governance Institute",
+          "date": "1/17/2024",
+          "sentiment": "Neutral",
+          "comment": "I strongly suggest extending the compliance timeline for smaller companies as they may need more time to adapt to these new requirements. The current 30-day period seems insufficient for proper implementation, especially for companies with limited resources.",
+          "initial": "P",
+          "ageGroup": "31-50",
+          "gender": "Female",
+          "location": "Urban",
+          "score": "9.2",
+          "tags": ["stakeholder engagement", "transparency", "accountability", "digital-first", "modern practices"],
+          "theme": "Stakeholder Engagement"
+        },
+        {
+          "id": "CMT003",
+          "name": "Amit Patel",
+          "email": "a.patel@example.com",
+          "company": "Digital India Foundation",
+          "date": "1/18/2024",
+          "sentiment": "Positive",
+          "comment": "Excellent initiative! The digital documentation requirement will significantly reduce paperwork and improve transparency. This aligns perfectly with the government's digital India vision. I recommend including provisions for data security and backup requirements.",
+          "initial": "A",
+          "ageGroup": "18-30",
+          "gender": "Male",
+          "location": "Urban",
+          "score": "8.5",
+          "tags": ["digital documentation", "streamline", "reduce paperwork", "modernize", "security protocols"],
+          "theme": "Digital Infrastructure"
+        },
+        {
+          "id": "CMT004",
+          "name": "Suresh Gupta",
+          "email": "s.gupta@example.com",
+          "company": "Small Business Association",
+          "date": "1/19/2024",
+          "sentiment": "Negative",
+          "comment": "The proposed timeline is too aggressive for small businesses. We need at least 6 more months to comply with these regulations. Rushing this will lead to errors and penalties for many companies that lack the resources for such a quick transition.",
+          "initial": "S",
+          "ageGroup": "51+",
+          "gender": "Male",
+          "location": "Rural",
+          "score": "3.2",
+          "tags": ["burden", "SMEs", "aggressive timeline", "costs", "phased implementation", "financial support"],
+          "theme": "Implementation Timeline"
+        }
+      ]
+    },
+    "DOC-2024-002": {
+      "id": "DOC-2024-002",
+      "title": "Taxation Laws (Second Amendment) Bill, 2024",
+      "description": "Introduction of new sections to address tax evasion and promote digital transactions.",
+      "totalComments": 21,
+      "sentimentDistribution": {
+        "positive": 12,
+        "neutral": 4,
+        "negative": 5
+      },
+      "comments": [
+        {
+          "id": "CMT005",
+          "name": "Dr. Meera Singh",
+          "email": "meera.singh@taxconsultants.com",
+          "company": "Tax Consultants India",
+          "date": "7/16/2024",
+          "sentiment": "Positive",
+          "comment": "The digital transaction incentives are a game-changer for modern businesses. This will significantly reduce the cash economy and improve tax compliance. I particularly appreciate the simplified filing for SMEs.",
+          "initial": "M",
+          "ageGroup": "31-50",
+          "gender": "Female",
+          "location": "Urban",
+          "score": "8.9",
+          "tags": ["digital incentives", "tax compliance", "SME provisions", "entrepreneurship"],
+          "theme": "Digital Economy"
+        },
+        {
+          "id": "CMT006",
+          "name": "Vikram Agarwal",
+          "email": "vikram@agarwalgroup.com",
+          "company": "Agarwal Group",
+          "date": "7/17/2024",
+          "sentiment": "Neutral",
+          "comment": "While the intent is good, the implementation timeline seems rushed. Small businesses will need more time to adapt to digital systems. The penalties for non-compliance are quite steep and may discourage innovation.",
+          "initial": "V",
+          "ageGroup": "31-50",
+          "gender": "Male",
+          "location": "Urban",
+          "score": "5.5",
+          "tags": ["implementation timeline", "small businesses", "digital adaptation", "penalties", "innovation"],
+          "theme": "Implementation Challenges"
+        }
+      ]
+    },
+    "DOC-2024-003": {
+      "id": "DOC-2024-003",
+      "title": "Insolvency and Bankruptcy Code (Amendment) Bill, 2024",
+      "description": "Strengthening the insolvency resolution process for corporate debtors.",
+      "totalComments": 15,
+      "sentimentDistribution": {
+        "positive": 8,
+        "neutral": 4,
+        "negative": 3
+      },
+      "comments": [
+        {
+          "id": "CMT026",
+          "name": "Adv. Rajesh Khanna",
+          "email": "rajesh.khanna@legal.com",
+          "company": "Legal Practice",
+          "date": "8/11/2024",
+          "sentiment": "Positive",
+          "comment": "The fast-track resolution for SMEs is a much-needed reform. The current 180-day timeline is too long for small businesses. This will help preserve value and jobs.",
+          "initial": "R",
+          "ageGroup": "31-50",
+          "gender": "Male",
+          "location": "Urban",
+          "score": "8.8",
+          "tags": ["fast-track resolution", "SMEs", "reform", "timeline", "preserve value", "jobs"],
+          "theme": "SME Resolution"
+        }
+      ]
+    },
+    "DOC-2024-004": {
+      "id": "DOC-2024-004",
+      "title": "Limited Liability Partnership (Amendment) Rules, 2024",
+      "description": "Simplifying the reporting and compliance framework for LLPs.",
+      "totalComments": 4,
+      "sentimentDistribution": {
+        "positive": 2,
+        "neutral": 1,
+        "negative": 1
+      },
+      "comments": [
+        {
+          "id": "CMT041",
+          "name": "CA Rajesh Agarwal",
+          "email": "rajesh@agarwalca.com",
+          "company": "Chartered Accountancy",
+          "date": "8/21/2024",
+          "sentiment": "Positive",
+          "comment": "The simplified annual return filing is a great relief for LLP partners. The current multiple form system was confusing and time-consuming. This will significantly reduce compliance burden.",
+          "initial": "R",
+          "ageGroup": "31-50",
+          "gender": "Male",
+          "location": "Urban",
+          "score": "8.8",
+          "tags": ["simplified annual return", "LLP partners", "multiple form system", "confusing", "time-consuming", "compliance burden"],
+          "theme": "Simplified Filing"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalComments": 44,
+    "totalDocuments": 4,
+    "overallSentimentDistribution": {
+      "positive": 24,
+      "neutral": 10,
+      "negative": 10
+    },
+    "demographics": {
+      "ageGroups": {
+        "18-30": 12,
+        "31-50": 24,
+        "51+": 8
+      },
+      "genders": {
+        "Male": 28,
+        "Female": 16
+      },
+      "locations": {
+        "Urban": 32,
+        "Rural": 12
+      }
+    },
+    "topThemes": [
+      "Digital Transformation",
+      "Implementation Timeline",
+      "SME Support",
+      "Digital Infrastructure",
+      "Stakeholder Engagement"
+    ]
+  }
+}
