@@ -111,7 +111,5 @@ This significantly reduces manual effort while ensuring that every stakeholder s
 
 Kenil Vegad
 
-Full Stack Developer
-
 GitHub: https://github.com/KenilVegad
 
