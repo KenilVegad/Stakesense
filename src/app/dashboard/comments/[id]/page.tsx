@@ -421,38 +421,31 @@ export default function CommentPage() {
         </CardFooter>
       </Card>
 
-       <Card>
+      <Card>
         <CardHeader>
-            <CardTitle>Feedback Analysis</CardTitle>
-            <CardDescription>Explore AI-powered insights derived from public comments and feedback.</CardDescription>
+          <CardTitle className="font-bold text-xl">Comment Analysis</CardTitle>
         </CardHeader>
-        <CardContent className="grid gap-6 md:grid-cols-2">
-          <Link href={`/dashboard/sentiment-analysis/${id}`} className="block group">
-            <Card className="hover:border-primary transition-colors h-full">
-                <CardContent className="p-6 flex items-center gap-6">
-                    <div className="bg-primary/10 text-primary p-4 rounded-lg">
-                        <BarChart3 className="h-8 w-8" />
-                    </div>
-                    <div>
-                    <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">Sentiment Analysis</h3>
-                    <p className="text-muted-foreground text-sm">View public opinion trends and sentiment distribution.</p>
-                    </div>
-                </CardContent>
-            </Card>
-          </Link>
-          <Link href={`/dashboard/feedback-analysis`} className="block group">
-            <Card className="hover:border-primary transition-colors h-full">
-                <CardContent className="p-6 flex items-center gap-6">
-                <div className="bg-primary/10 text-primary p-4 rounded-lg">
-                    <FileSignature className="h-8 w-8" />
-                </div>
-                <div>
-                    <h3 className="text-lg font-semibold group-hover:text-primary transition-colors">Detailed Feedback Reports</h3>
-                    <p className="text-muted-foreground text-sm">Generate and view in-depth feedback analysis reports.</p>
-                </div>
-                </CardContent>
-            </Card>
-          </Link>
+        <CardContent>
+          <div className="flex flex-col md:flex-row justify-around gap-4">
+            <Link href={`/dashboard/sentiment-analysis`} passHref className="w-full md:w-1/3">
+              <Button variant="outline" className="h-auto p-8 flex-col w-full items-center justify-center">
+                  <Smile className="h-8 w-8 mb-2" />
+                  <span className="text-lg font-semibold">Sentiment Analysis</span>
+              </Button>
+            </Link>
+            <Link href={`/dashboard/word-cloud`} passHref className="w-full md:w-1/3">
+              <Button variant="outline" className="h-auto p-8 flex-col w-full items-center justify-center">
+                  <Cloud className="h-8 w-8 mb-2" />
+                  <span className="text-lg font-semibold">Word Cloud</span>
+              </Button>
+            </Link>
+            <Link href={`/dashboard/comments/suggestion`} passHref className="w-full md:w-1/3">
+                <Button variant="outline" className="h-auto p-8 flex-col w-full items-center justify-center">
+                    <Info className="h-8 w-8 mb-2" />
+                    <span className="text-lg font-semibold">Comment Suggestion</span>
+                </Button>
+            </Link>
+          </div>
         </CardContent>
       </Card>
 
